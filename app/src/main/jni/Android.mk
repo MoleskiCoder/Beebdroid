@@ -1,6 +1,9 @@
+
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
+
+LOCAL_DISABLE_FATAL_LINKER_WARNINGS := true
 
 LOCAL_CFLAGS := -DANDROID_NDK \
                 -DDISABLE_IMPORTGL
